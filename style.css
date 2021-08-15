@@ -1,0 +1,85 @@
+
+
+
+
+h1 {
+
+	font-family: '': 
+}
+
+
+
+
+
+
+
+
+
+img {
+
+	height: 250px;
+	width: 250px;
+
+}
+
+#landing {
+
+	height: 80vh;
+	/*center the content,(image,heading and paragraph) horizontally and vertically using flexbox*/
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+}
+
+#gallery {
+
+	height: 75vh;
+	display: flex;
+	flex-direction: column; 
+	align-items: center;
+	justify-content: center;
+	color: white;
+	border-radius: 30px;
+
+}
+
+ul {
+
+	list-style: none;
+	padding: 0;
+
+}
+
+h2 {
+
+	color: #007bff;
+
+}
+
+.tools{
+
+	padding: 20px;
+	border: 5px solid black;
+	margin: 20px;
+	height: 150px;
+	width: 75%;
+
+}
+
+.tools1{
+
+	padding: 25px;
+	border: 5px solid black;
+	margin: 20px;
+	height: 200px;
+	width: 75%;
+
+}
+
+html {
+
+	scroll-behavior: smooth;
+
+}
